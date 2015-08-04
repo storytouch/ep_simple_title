@@ -1,0 +1,20 @@
+{
+  "description": "Gets title from URL param and sets it on page title (overwrites default Etherpad behavior)",
+  "name": "ep_simple_title",
+  "version": "0.0.1",
+  "author": {
+    "name": "Luiza Pagliari",
+    "email": "lpagliari@gmail.com"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/storytouch/ep_simple_title",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/storytouch/ep_simple_title.git"
+  }
+}
