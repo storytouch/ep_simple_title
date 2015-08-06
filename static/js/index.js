@@ -1,7 +1,7 @@
 exports.postAceInit = function(hook, context) {
   var title = getParam("title");
   if (title) {
-    window.document.title = unescape(title);
+    window.document.title = unescape(decodeURIComponent(title));
   }
 };
 
